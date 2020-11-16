@@ -4,3 +4,6 @@ dsa_env
 # problem List:
 documents/FINAL450.xlsx
 documents/problem solving algo.docx
+
+#gitignore
+.gitignore
