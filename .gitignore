@@ -1,9 +1,5 @@
-# virtualenv
-dsa_env
+          #venv
+          dsa_env
 
-# problem List:
-documents/FINAL450.xlsx
-documents/problem solving algo.docx
-
-#gitignore
-.gitignore
+          #documents
+           documents
