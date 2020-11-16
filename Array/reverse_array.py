@@ -11,9 +11,21 @@ def reverse_array(arr):
     return "".join(arr)
 
 
+def recursive_reverse_array(arr,start,end):
+    if start >= end:
+        return
+    else:
+        arr[start],arr[end] = arr[end],arr[start]
+        recursive_reverse_array(arr,start+1,end-1)
+
+
 if __name__ == "__main__":
     t = int(input(""))
     for _ in range(t):
         arr = list(map(str, input()))
 
+        # Normal Approach
         print(reverse_array(arr))
+
+        # Recursive Approch
+        print(recursive_reverse_array(arr,0,len(arr)-1))
